@@ -7,8 +7,10 @@ const Repositories = () => {
     repo.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
   return (
-    <div className="flex">
+    <div className="flex ">
+      <div className=''>
         <Sidebar />
+      </div>
         <div className="flex-grow p-6">
             <div className="flex-grow p-6 bg-gray-50 min-h-screen">
               <div className="flex justify-between items-center mb-6">
